@@ -1,0 +1,102 @@
+body {
+           font-family: "Century Gothic", sans-serif;
+            font-size:14px;
+            background-image: url("../images/background.jpg");
+            background-repeat:no-repeat;
+            background-position: top,center;
+
+
+            background-color: #white;
+}
+
+
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.menu li a{
+
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.menu li a:hover{
+  background-color: #E0EAEE;
+  color: #333
+}
+
+ul {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+}
+.page {
+
+  font-family: "Century Gothic", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 20px;
+  font-weight: 400;
+  background-color: rgba(250, 250, 250, .9);
+  background-size: cover;
+}
+
+}
+header {
+  margin-left: 10px;
+
+}
+div {
+
+  float: left;
+  margin: 0 1.5%;
+  width: 69%;
+   background: rgba(250, 250, 250, .9);
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 23%;
+}
+footer {
+  margin-top: 100px;
+
+}
+
+.lit {
+  position: absolute;
+  height: 700px;
+  width: 510px;
+  margin: -300px 0 0 -230px;
+  top: 50%;
+  left: 50%;
+  background-color:transparent;
+
+
+}
+.lit:hover:before{
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-image: url("../images/lit.jpg");
+  display: block;
+  content: '';
+}
+
+.about{
+  width:100%; margin:0 auto;
+  text-align: center;
+}
